@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jobapp.inttechlimited"
+    tools:ignore="LockedOrientationActivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.jobapp.inttechlimited.MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name="com.jobapp.inttechlimited.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/RemoveAppSplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jobapp.inttechlimited.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.jobapp.inttechlimited.JobDetailsActivity" />
+        <activity android:name="com.jobapp.inttechlimited.SearchActivity" />
+        <activity android:name="com.jobapp.inttechlimited.FilterSearchResultActivity" />
+        <activity
+            android:name="com.jobapp.inttechlimited.UserListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jobapp.inttechlimited.AddJobActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jobapp.inttechlimited.EditJobActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jobapp.inttechlimited.JobProviderMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.jobapp.inttechlimited.SignInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.jobapp.inttechlimited.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.jobapp.inttechlimited.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.jobapp.inttechlimited.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.jobapp.inttechlimited.EditProfileJobProviderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.jobapp.inttechlimited.AcceptActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <meta-data
+            android:name="com.onesignal.NotificationAccentColor.DEFAULT"
+            android:value="FF0090ff" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+    </application>
+
+</manifest>

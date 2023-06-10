@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841333395594",
+    "project_id": "cakuri-nin",
+    "storage_bucket": "cakuri-nin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841333395594:android:d152ada24b1985287b5d73",
+        "android_client_info": {
+          "package_name": "com.jobapp.inttechlimited"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841333395594-nmavi2o8m4a8ntfq7e72j93p6ksl9qvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXL_mnILUUq7g8N0Ug-Jt04vNw2_KcyE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841333395594-nmavi2o8m4a8ntfq7e72j93p6ksl9qvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
